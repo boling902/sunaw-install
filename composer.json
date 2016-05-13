@@ -1,0 +1,26 @@
+{
+    "name": "sunaw/sunaw-installer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "abowu",
+            "email": "wuyib@sunaw,net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sunaw\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "sunaw\\composer\\Plugin"
+    },
+    "minimum-stability": "dev"
+}
