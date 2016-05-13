@@ -22,5 +22,5 @@
     "extra": {
         "class": "sunaw\\composer\\Plugin"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "master"
 }
