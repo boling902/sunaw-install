@@ -12,6 +12,7 @@ class Plugin implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io)
     {
+		echo 'iiii';
         $installer = new SunawFramework($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
